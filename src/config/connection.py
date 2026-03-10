@@ -34,7 +34,6 @@ class Connection:
                 password=self.password,
                 database=self.dbName
             )
-            print(f"Database object: {type(database)}")
             return database
         except connector.Error as e:
             print(e)

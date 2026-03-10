@@ -5,7 +5,6 @@ def loadDataCards(cards):
     connection = Connection()
     handleDB = connection.connect()
     cursor = handleDB.cursor()
-
     query = """
     INSERT IGNORE INTO cards
     (id, name, attack, cost, effect, isUnique, imageUrl, type)
