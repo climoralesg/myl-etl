@@ -1,0 +1,859 @@
+{
+   "data": {
+      "CardCatalog": {
+         "__typename": "CardCatalog",
+         "cards": [
+            {
+               "__typename": "Card",
+               "artist": "Mariola Quirland",
+               "attack": 2,
+               "collectorCode": "PROMO-CXC-03",
+               "cost": 3,
+               "createdAt": "2026-01-28T12:06:50.649Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "<p>En tu Fase de Vigilia, una vez por turno, cada jugador destierra 1 carta de su Cementerio y tú robas 1 carta. Luego, si tienes más cartas en el destierro que tu oponente, puedes elegir entre barajar 1 carta de tu Cementerio en tu Mazo Castillo o robar 1 carta. Si esta carta está en tu Cementerio, puedes ponerla en el fondo de tu Mazo Castillo.</p>",
+               "flavor": "<p>La madre silente del cielo, extiende sus alas sobre el Nilo. Reina de reinas, teje destinos con mirada serena. En su sombra, los dioses se inclinan.</p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 11053,
+               "imageIlustrationUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/07-Dominios-de-RA/ilustraciones/Mut.png-1769602182948",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/07-Dominios-de-RA/cartas/Mut-real.png-1769602032115",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 36,
+                     "name": "Robar"
+                  },
+                  {
+                     "id": 11,
+                     "name": "Control Cementerio"
+                  },
+                  {
+                     "id": 51,
+                     "name": "Barajar"
+                  }
+               ],
+               "name": "Mut",
+               "race": [
+                  "ETERNO"
+               ],
+               "slug": "mut",
+               "sortOrder": 0,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 1,
+               "collectorCode": "FESTIVIDADES25 11-19",
+               "cost": 1,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💚 Hijos de Daana",
+                  "slug": "hijos-de-daana"
+               },
+               "editionId": 3,
+               "effect": "<p>Imbloqueable. Cuando entra en juego, mira las primeras 3 cartas del Mazo Castillo oponente. Elige una de esas cartas y destiérrala. Luego, tu oponente baraja su Mazo Castillo.</p>",
+               "flavor": "<p><em>Habitante de lagos y ríos profundos. Temido por su tamaño colosal y su ferocidad, a menudo representa las fuerzas caóticas de la naturaleza.</em></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8907,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/011-FEST25-Oillipheist-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 21,
+                     "name": "Imbloqueable"
+                  },
+                  {
+                     "id": 40,
+                     "name": "Carcomer"
+                  }
+               ],
+               "name": "Oillipheist",
+               "race": [
+                  "SOMBRA"
+               ],
+               "slug": "oillipheist",
+               "sortOrder": 107,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "Ikkitouch",
+               "attack": 2,
+               "collectorCode": "FESTIVIDADES25 10-19",
+               "cost": 2,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💚 Hijos de Daana",
+                  "slug": "hijos-de-daana"
+               },
+               "editionId": 3,
+               "effect": "<p>Imbloqueable. Cuando entra en juego o sea descartado de tu Mano, puedes buscar una copia de esta carta en tu Mazo Castillo y ponerla en tu Mano.</p>",
+               "flavor": "<p>Es un seductor de mirada peligrosa. Aparece como un joven apuesto, fumando una pipa, y conquista a mujeres humandas, dejándolas hechizadas, enfermas de deseo o muertas de melancolía.</p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8906,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/05-Hijos-de-Daana/cartas/Nueva-carta-real.png-1768856202208",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 21,
+                     "name": "Imbloqueable"
+                  },
+                  {
+                     "id": 7,
+                     "name": "Buscador"
+                  }
+               ],
+               "name": "Gancanagh",
+               "race": [
+                  "DESAFIANTE"
+               ],
+               "slug": "gancanagh",
+               "sortOrder": 106,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "Ikkitouch",
+               "attack": 0,
+               "collectorCode": "FESTIVIDADES25 12-19",
+               "cost": 0,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💚 Hijos de Daana",
+                  "slug": "hijos-de-daana"
+               },
+               "editionId": 3,
+               "effect": "<p>En tu Fase de Vigilia, una vez por turno, puedes pagar este y otro Oro que controles para que tu oponente destierre la primera carta de tu Mazo Castillo.</p>",
+               "flavor": "<p><i></i></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8908,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/05-Hijos-de-Daana/cartas/Nueva-carta-real.png-1768856922784",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 13,
+                     "name": "Daño Destierro"
+                  }
+               ],
+               "name": "Cerveza Verde",
+               "race": [],
+               "slug": "cerveza-verde",
+               "sortOrder": 108,
+               "type": "ORO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 2,
+               "collectorCode": "FESTIVIDADES25 13-19",
+               "cost": 2,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "<p>Cuando entre o salga del juego, puedes mirar las 2 primeras cartas de tu Mazo Castillo, pon una en tu Mano y la otra en la parte inferior de tu Mazo Castillo.</p>",
+               "flavor": "<p><em>Era llamada «la Señora del Año» y estaba asociada al renacimiento, la fertilidad y la renovación cíclica del cosmos.</em></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8909,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/013-FEST25-Renpet-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 24,
+                     "name": "Ordenar"
+                  }
+               ],
+               "name": "Renpet",
+               "race": [
+                  "ETERNO"
+               ],
+               "slug": "renpet",
+               "sortOrder": 109,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 3,
+               "collectorCode": "FESTIVIDADES25 14-19",
+               "cost": 2,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "<p>Cuando es declarado atacante, cada jugador bota 1 carta. Si entre esas cartas hay un Oro o un Aliado, tu oponente bota 2 cartas adicionales.</p>",
+               "flavor": "<p>A pesar de los conflictos, mantuvo obras constructivas y rituales reliquisos. Uno de los últimos señores del Nilo.</p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8910,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/07-Dominios-de-RA/cartas/Nueva-carta-real.png-1768856344803",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 12,
+                     "name": "Daño Directo"
+                  }
+               ],
+               "name": "Ramses IX",
+               "race": [
+                  "FARAON"
+               ],
+               "slug": "ramses-ix",
+               "sortOrder": 110,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "JP Aguirre",
+               "attack": 3,
+               "collectorCode": "FESTIVIDADES25 15-19",
+               "cost": 3,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "<p>En tu Fase de Vigilia, una vez por turno, puedes generar 1 Oro para jugar Tótem o para Aliados de raza Sacerdote.</p>",
+               "flavor": "<p>Fue divinizado póstumamente, convirtiéndose es una figura casi oracular en épocas posteriores. Su reputación trascendió la función sacerdotal: era visto como sabio, sanador y protector.</p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8911,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/07-Dominios-de-RA/cartas/Nueva-carta-real.png-1768264718541",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 25,
+                     "name": "Oro Virtual"
+                  }
+               ],
+               "name": "Amenhotep",
+               "race": [
+                  "SACERDOTE"
+               ],
+               "slug": "amenhotep",
+               "sortOrder": 111,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 4,
+               "collectorCode": "FESTIVIDADES25 17-19",
+               "cost": 4,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "🧛 Drácula e Inferno",
+                  "slug": "dracula-inferno"
+               },
+               "editionId": 23,
+               "effect": "<p>Solo puedes tener un Moroi en juego. Cuando entra en juego, puedes buscar una carta Drácula en tu Cementerio y jugarla sin pagar su coste.</p>",
+               "flavor": "<p>Nacido de la muerte mal cerrada, ronda en silencio los hogares dormidos. Se alimenta de la sangre de los vivos, especialmente de los niños. Nadie lo ve entrar, pero su presencia deja un frío que nunca se va.</p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8913,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/16-Dracula-Inferno/cartas/Nueva-carta-real.png-1768856549433",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 45,
+                     "name": "Errante"
+                  },
+                  {
+                     "id": 50,
+                     "name": "Reclutar"
+                  }
+               ],
+               "name": "Moroi",
+               "race": [
+                  "SOMBRA"
+               ],
+               "slug": "moroi",
+               "sortOrder": 113,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "FESTIVIDADES25 18-19",
+               "cost": 2,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "🧛 Drácula e Inferno",
+                  "slug": "dracula-inferno"
+               },
+               "editionId": 23,
+               "effect": "<p>No puede ser Anulado. Destruye un Aliado de fuerza 3 o menos o una carta de coste 3 o más.</p>",
+               "flavor": "<p><i></i></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8914,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/16-Dracula-Inferno/cartas/Nueva-carta-real.png-1768264777612",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 5,
+                     "name": "Anti Counter"
+                  },
+                  {
+                     "id": 29,
+                     "name": "Removal"
+                  }
+               ],
+               "name": "Danza de Sangre",
+               "race": [],
+               "slug": "danza-de-sangre",
+               "sortOrder": 114,
+               "type": "TALISMAN"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "FESTIVIDADES25 19-19",
+               "cost": 0,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "🧛 Drácula e Inferno",
+                  "slug": "dracula-inferno"
+               },
+               "editionId": 23,
+               "effect": "<p>Puedes pagar este Oro y otro Oro que controles para robar una carta. Sólo puedes activar una Luna de Sangre por turno.</p>",
+               "flavor": "<p><em>El mundo tiembla bajo su mirada enferma. Los lobos callan. Los niños sueñan con ceniza. Nada crece. Todo sangra.</em></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8915,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/019-FEST25-Luna-de-Sangre-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 36,
+                     "name": "Robar"
+                  }
+               ],
+               "name": "Luna de Sangre",
+               "race": [],
+               "slug": "luna-de-sangre",
+               "sortOrder": 115,
+               "type": "ORO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "FESTIVIDADES25 20-19",
+               "cost": 3,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💚 Hijos de Daana",
+                  "slug": "hijos-de-daana"
+               },
+               "editionId": 3,
+               "effect": "<p>Cuando entra en juego, puedes barajar una carta en juego que no sea Oro en el Mazo Castillo de su dueño. Puedes destruir este Tótem para desterrar dos cartas del Cementerio oponente.</p>",
+               "flavor": "<p><i></i></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8916,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/020-FEST25-Anillos-de-Bradbury-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 29,
+                     "name": "Removal"
+                  },
+                  {
+                     "id": 11,
+                     "name": "Control Cementerio"
+                  }
+               ],
+               "name": "Anillos de Bradbury",
+               "race": [],
+               "slug": "anillos-de-bradbury",
+               "sortOrder": 116,
+               "type": "TOTEM"
+            },
+            {
+               "__typename": "Card",
+               "artist": "JP Aguirre",
+               "attack": 0,
+               "collectorCode": "FESTIVIDADES25 16-19",
+               "cost": 0,
+               "createdAt": "2025-12-30T16:30:16.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "<p>Cuando entra en juego, si controlas uno o más Tótem, puedes robar una carta.</p>",
+               "flavor": "<p>La boca del año, donde los dioses respiran el primer aliento, y los campos, cubiertos de promesas, se inclinan ante el rumor del renacer.</p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8912,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/07-Dominios-de-RA/cartas/Nueva-carta-real.png-1768856996165",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [
+                  {
+                     "id": 36,
+                     "name": "Robar"
+                  }
+               ],
+               "name": "Wep Renpet",
+               "race": [],
+               "slug": "wep-renpet",
+               "sortOrder": 112,
+               "type": "ORO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "SECRETA PROMO 37",
+               "cost": 1,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "Cuando juegues este Talismán, destiérralo. Busca un Aliado de coste 2 o menos en tu Mazo Castillo y ponlo en tu Mano.",
+               "flavor": "<p><i><p><i>Bajo el sol dorado del Nilo, Ramsés III ascendía, con corona doble, el Alto y Bajo Egipto unía. Dioses lo bendijeron, el pueblo lo aclamó; faraón inmortal. </i></p></i></p>",
+               "frequency": "SECRETA",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8888,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/007-PBSEC-Regresa-el-Dios-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": null,
+               "name": "Regresa el Dios",
+               "race": [],
+               "slug": "regresa-el-dios",
+               "sortOrder": 88,
+               "type": "TALISMAN"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "SECRETA PROMO 40",
+               "cost": 0,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "🧛 Drácula e Inferno",
+                  "slug": "dracula-inferno"
+               },
+               "editionId": 23,
+               "effect": "Cuando entra en juego, muestra un Aliado de tu mano para mostrar 3 cartas de la parte superior de tu Mazo Castillo. Luego, pon un Aliado de la misma raza en tu mano y baraja el resto.",
+               "flavor": "<p><i><p><i> Beber de él desata tormentos inefables, corrompiendo el alma y atando al bebedor a una condena eterna.</i></p></i></p>",
+               "frequency": "SECRETA",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8891,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/010-PBSEC-Caliz-Maldito-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": null,
+               "name": "Caliz Maldito",
+               "race": [],
+               "slug": "caliz-maldito",
+               "sortOrder": 91,
+               "type": "ORO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 3,
+               "collectorCode": "SECRETA PROMO 39",
+               "cost": 5,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "🧛 Drácula e Inferno",
+                  "slug": "dracula-inferno"
+               },
+               "editionId": 23,
+               "effect": "<p>Los Aliados oponentes pierden 2 a la fuerza. En tu Fase de Vigilia, si Barón de Gortz está en tu Cementerio, puedes destruir un Aliado que controles para ponerlo en tu Mano. Sólo puedes activar un Barón de Gortz por turno.</p>",
+               "flavor": "<p><i><p><i>Monstruoso vampiro, un temible conjurador, capaz de consumir carne y espíritu. Amante de la música, es el gran corruptor que pisa la Tierra.</i></p></i></p>",
+               "frequency": "SECRETA",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8890,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/009-PBSEC-Baron-de-Gortz-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": null,
+               "name": "Baron de Gortz",
+               "race": [
+                  "SOMBRA"
+               ],
+               "slug": "baron-de-gortz",
+               "sortOrder": 90,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "SECRETA PROMO 36",
+               "cost": 3,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💚 Hijos de Daana",
+                  "slug": "hijos-de-daana"
+               },
+               "editionId": 3,
+               "effect": "Cuando juegues este Talismán, destiérralo. Destruye un Aliado y todas sus copias en juego.",
+               "flavor": "<p><i><p><i>Caerán los invasores, aquellos que quieran poner sus sucias garras sobre la sagrada Tierra Esmeralda.</i></p></i></p>",
+               "frequency": "SECRETA",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8887,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/006-PBSEC-Aplastar-Fomor-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": null,
+               "name": "Aplastar Fomor",
+               "race": [],
+               "slug": "aplastar-fomor",
+               "sortOrder": 87,
+               "type": "TALISMAN"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "SECRETA PROMO 38",
+               "cost": 0,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "Si este Oro está en tu Reserva de Oro, puedes desterrarlo y pagar 1 Oro para que un jugador bote tres cartas de su Mazo Castillo.",
+               "flavor": "<p><i><p><i>Secretos y prácticas médicas han sido puestas por escrito en aquel milenario documento, uno que nos habla del saber que tenían los antiguos egipcios.</i></p></i></p>",
+               "frequency": "SECRETA",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8889,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/008-PBSEC-Papiros-de-Lahun-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": null,
+               "name": "Papiros de Lahun",
+               "race": [],
+               "slug": "papiros-de-lahun",
+               "sortOrder": 89,
+               "type": "ORO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 0,
+               "collectorCode": "FESTIVIDADES25 00-19",
+               "cost": 0,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "🧛 Drácula e Inferno",
+                  "slug": "dracula-inferno"
+               },
+               "editionId": 23,
+               "effect": "<p>¡Acabas de encontrar la carta Ultra Secreta! Esta carta es válida para canjear las cartas Festivas de Primer Bloque del año 2025. ¡Felicidades!</p>",
+               "flavor": "<p><em>Mientras dioses bailan y dragones brindan con burbujas de fuego, Anubis acomoda todo con cara de pocos amigos. Lista en mano, murmura: «Que no me mezclen otra vez a los vivos con los muertos».</em></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8896,
+               "imageIlustrationUrl": "",
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/000-FEST25-Festividades-2025-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": [],
+               "name": "Festividades 2025",
+               "race": [],
+               "slug": "festividades-2025",
+               "sortOrder": 96,
+               "type": "ORO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 3,
+               "collectorCode": "PROMO-EXCLUSIVA-PB-12",
+               "cost": 3,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "💛 Dominios de RA",
+                  "slug": "dominios-de-ra"
+               },
+               "editionId": 4,
+               "effect": "Imbloqueable. Cuando entra en juego, puedes buscar un Aliado Guerrero o un Arma en tu Mazo Castillo y ponerlo en tu Mano.",
+               "flavor": "<p><i>Forjado entre dioses griegos y faraones, porta lanza y escudo con orgullo ancestral. Su mirada desafía desiertos y mareas. En su pecho arde el fuego de dos mundos.</i></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8895,
+               "imageIlustrationUrl": null,
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/004-LBPE25-Guerrero-Ptolemaico-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": null,
+               "name": "Guerrero Ptolemaico",
+               "race": [
+                  "FARAON"
+               ],
+               "slug": "guerrero-ptolemaico",
+               "sortOrder": 95,
+               "type": "ALIADO"
+            },
+            {
+               "__typename": "Card",
+               "artist": "ARTIST",
+               "attack": 2,
+               "collectorCode": "PROMO-EXCLUSIVA-PB-10",
+               "cost": 2,
+               "createdAt": "2025-12-30T16:30:15.000Z",
+               "deckBuilder": true,
+               "edition": {
+                  "__typename": "Edition",
+                  "name": "♥️ Helénica",
+                  "slug": "helenica"
+               },
+               "editionId": 2,
+               "effect": "Sólo puedes tener un Asterión el Minotauro en juego. Indesterrable. Tus Aliados Minotauro ganan 1 a la fuerza.",
+               "flavor": "<p><i>Habita el laberinto del alma y la piedra. No es bestia, es un ser olvidado; sus pasos resuenan como tambores de juicio. Nadie sale indemne de su encuentro.</i></p>",
+               "frequency": "REAL",
+               "game": {
+                  "__typename": "Game",
+                  "name": "📖 Primer Bloque",
+                  "slug": "primer-bloque"
+               },
+               "gameId": 1,
+               "id": 8893,
+               "imageIlustrationUrl": null,
+               "imageUrl": "https://cdn.mazos.cl/PRIMER_BLOQUE/28-Lootbox25/cartas/002-LBPE25-Asterion-el-Minotauro-MazosCL.png",
+               "isFavorite": false,
+               "isMercenary": false,
+               "isNew": true,
+               "isUnique": false,
+               "mechanics": null,
+               "name": "Asterión el Minotauro",
+               "race": [
+                  "TITAN"
+               ],
+               "slug": "asterion-el-minotauro",
+               "sortOrder": 93,
+               "type": "ALIADO"
+            }
+         ],
+         "pages": 239,
+         "total": 4776
+      }
+   }
+}
