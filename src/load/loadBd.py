@@ -28,6 +28,8 @@ def loadDataCards(cards):
     # Ejecutamos la inserción masiva
     cursor.executemany(query, values)
     handleDB.commit()
+    cursor.close()
+    handleDB.close()
 
 def deleteDataCards():
     connection = Connection()
