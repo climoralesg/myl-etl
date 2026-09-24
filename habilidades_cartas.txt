@@ -1,0 +1,438 @@
+{
+    "data": {
+        "mechanics": [
+            {
+                "id": 1,
+                "name": "Absorción",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Evita que el daño al Mazo Castillo afecte, reduciendo todo daño a 0. Es una forma extrema de prevención de daño.",
+                "groupedWith": "Reducción Daño",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 2,
+                "name": "Acelerar",
+                "archetype": "Recursos y Economía",
+                "description": "Permite generar o usar más recursos (Oros) de lo habitual, agilizando el flujo de juego y la disponibilidad de cartas.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 3,
+                "name": "Alimentar",
+                "archetype": "Combate / Fuerza",
+                "description": "Incrementa la fuerza de un aliado mientras permanezca en juego. Complementa otros efectos de fuerza.",
+                "groupedWith": "Bono Fuerza",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 4,
+                "name": "Anular",
+                "archetype": "Control y Supresión",
+                "description": "Cancela la entrada o resolución de un Talismán o carta, negando su efecto.",
+                "groupedWith": "Cancelar Habilidad / Anti-Counter",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 5,
+                "name": "Anti Counter",
+                "archetype": "Control y Supresión",
+                "description": "Evita que la carta sea anulada o bloqueada por habilidades o cartas de contrarresto.",
+                "groupedWith": "Anular",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 6,
+                "name": "Bono Fuerza",
+                "archetype": "Combate / Fuerza",
+                "description": "Incrementa la fuerza de los Aliados mediante efectos de Talismanes, Sinergias, Armas, etc.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 7,
+                "name": "Buscador",
+                "archetype": "Manipulación Mazo/Mano",
+                "description": "Permite buscar cartas en Mazo, Cementerio o Destierro y ponerlas en la mano o en una zona de juego específica.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 8,
+                "name": "Cancelar Ataque",
+                "archetype": "Control y Supresión",
+                "description": "Evita que un Aliado ataque ese turno, regresándolo a Línea de Defensa.",
+                "groupedWith": "Restricción Ataque",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 9,
+                "name": "Control Tótem",
+                "archetype": "Control y Supresión",
+                "description": "Permite tomar el control de un Tótem oponente y usarlo en tu beneficio.",
+                "groupedWith": "Control Aliado",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 10,
+                "name": "Control Aliado",
+                "archetype": "Control y Supresión",
+                "description": "Permite tomar control de un Aliado oponente desde Mazo, Mano, Cementerio o Campo de juego.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 11,
+                "name": "Control Cementerio",
+                "archetype": "Control y Supresión",
+                "description": "Controla cartas en el Cementerio de cualquier jugador y puede enviarlas al Destierro, evitando que el oponente las recupere.",
+                "groupedWith": "Control Aliado",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 12,
+                "name": "Daño Directo",
+                "archetype": "Daño y Remoción",
+                "description": "Inflige daño directo al Mazo Castillo, independiente de la fase de combate normal.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 13,
+                "name": "Daño Destierro",
+                "archetype": "Daño y Remoción",
+                "description": "El daño realizado se envía directamente al Destierro, sin pasar por el Cementerio.",
+                "groupedWith": "Exilio",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 14,
+                "name": "Descarte",
+                "archetype": "Manipulación Mazo/Mano",
+                "description": "Fuerza a los jugadores a descartar cartas de la mano o cumplir un coste alternativo que implique descarte.",
+                "groupedWith": "Carcomer",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 15,
+                "name": "Eliminar Habilidad",
+                "archetype": "Control y Supresión",
+                "description": "Desactiva habilidades activadas o continuas de una carta. Ej: Lanza de Rayos.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 16,
+                "name": "Emboscada",
+                "archetype": "Manipulación Mazo/Mano",
+                "description": "Permite jugar un Aliado al inicio de la fase de Bloqueo, sorprendiendo al oponente.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 17,
+                "name": "Espiar",
+                "archetype": "Manipulación Mazo/Mano",
+                "description": "Permite ver cartas privadas del oponente (Mano, Mazo, Cementerio) para planificar jugadas.",
+                "groupedWith": "Ordenar",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 18,
+                "name": "Exhumar",
+                "archetype": "Cementerio / Recursión",
+                "description": "Juega una carta desde el Cementerio y luego la envía al Destierro.",
+                "groupedWith": "Reanimar / Retorno",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 19,
+                "name": "Furia",
+                "archetype": "Combate / Fuerza",
+                "description": "Permite que un Aliado ataque en el mismo turno en que entra en juego.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 20,
+                "name": "Guardián",
+                "archetype": "Combate / Fuerza",
+                "description": "Aliado que solo puede bloquear, no atacar.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 21,
+                "name": "Imbloqueable",
+                "archetype": "Combate / Fuerza",
+                "description": "Aliado que no puede ser bloqueado por otros aliados.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 22,
+                "name": "Indesterrable",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Aliado que no puede ser enviado al Destierro por efectos del juego, solo puede salir por daño o descarte.",
+                "groupedWith": "Inmunidad",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 23,
+                "name": "Indestructible",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Aliado que no puede ser destruido ni enviado al Cementerio, pero puede ser afectado por otras mecánicas como daño o descarte.",
+                "groupedWith": "Inmunidad",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 24,
+                "name": "Ordenar",
+                "archetype": "Manipulación Mazo/Mano",
+                "description": "Permite reorganizar cartas del tope del Mazo Castillo según la estrategia del jugador.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 25,
+                "name": "Oro Virtual",
+                "archetype": "Recursos y Economía",
+                "description": "Recurso que se genera de forma virtual hasta la Fase Final, aumentando flexibilidad de juego.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 26,
+                "name": "Reanimar",
+                "archetype": "Cementerio / Recursión",
+                "description": "Juega una carta desde el Cementerio pagando su coste, volviendo al juego.",
+                "groupedWith": "Exhumar",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 27,
+                "name": "Redirección",
+                "archetype": "Daño y Remoción",
+                "description": "Permite redirigir el efecto de una carta a otro objetivo válido en juego.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 28,
+                "name": "Relámpago",
+                "archetype": "Rasgos Especiales / Temáticos",
+                "description": "Carta que puede jugarse al comienzo de cualquier fase o paso del juego, otorgando velocidad e instantaneidad.",
+                "groupedWith": "Blink",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 29,
+                "name": "Removal",
+                "archetype": "Daño y Remoción",
+                "description": "Concepto general que engloba destruir, desterrar, devolver a la mano o enviar al Mazo Castillo cualquier carta en juego.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 30,
+                "name": "Reducción Daño",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Reduce el daño infligido al Mazo Castillo, protección parcial frente a ataques.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 31,
+                "name": "Reducción Fuerza",
+                "archetype": "Combate / Fuerza",
+                "description": "Reduce la fuerza de un aliado, normalmente mediante Talismanes, Aliados o Armas.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 32,
+                "name": "Retador",
+                "archetype": "Combate / Fuerza",
+                "description": "Aliado declarado atacante que obliga al oponente a elegir un bloqueador específico si puede.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 33,
+                "name": "Restricción Ataque",
+                "archetype": "Control y Supresión",
+                "description": "Impide que aliados ataquen, devolviéndolos a Línea de Defensa; se usa para limitar ataques estratégicos.",
+                "groupedWith": "Cancelar Ataque",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 34,
+                "name": "Restricción Bloqueo",
+                "archetype": "Control y Supresión",
+                "description": "Restringe que ciertos aliados puedan bloquear, modificando la fase de defensa del oponente.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 35,
+                "name": "Retorno",
+                "archetype": "Cementerio / Recursión",
+                "description": "Permite jugar cartas desde el Destierro y ponerlas en juego.",
+                "groupedWith": "Exhumar",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 36,
+                "name": "Robar",
+                "archetype": "Manipulación Mazo/Mano",
+                "description": "Tomar cartas de la parte superior del Mazo Castillo y ponerlas en la mano, aumentando la ventaja de cartas.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 37,
+                "name": "Única",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Solo se puede tener una copia de la carta con esta habilidad en el mazo, limitando acumulación de efectos.",
+                "groupedWith": "Errante",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 38,
+                "name": "Rompe Oro",
+                "archetype": "Recursos y Economía",
+                "description": "Permite manipular los Oros del oponente para reducir sus recursos disponibles.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 39,
+                "name": "Control Oro",
+                "archetype": "Control y Supresión",
+                "description": "Permite tomar control de un Oro del oponente y ponerlo en tu zona de juego.",
+                "groupedWith": "Control Aliado",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 40,
+                "name": "Carcomer",
+                "archetype": "Daño y Remoción",
+                "description": "Envía una carta desde el Mazo Castillo directamente al Destierro del dueño, equivalente a Descarte de mazo.",
+                "groupedWith": "Descarte",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 41,
+                "name": "Cancelar Habilidad",
+                "archetype": "Control y Supresión",
+                "description": "Cancela habilidades activadas de un oponente, impidiendo su efecto.",
+                "groupedWith": "Anular",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 42,
+                "name": "Blink",
+                "archetype": "Rasgos Especiales / Temáticos",
+                "description": "Destierra un Aliado y lo vuelve a jugar sin pagar su coste. Efecto de velocidad/instantaneidad.",
+                "groupedWith": "Relámpago",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 43,
+                "name": "Inmunidad",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Carta que no puede ser objetivo de cartas o habilidades que la afecten.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 44,
+                "name": "Honor",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Aliados con contadores de Honor no pueden salir del juego por efectos de Talismanes o Tótems.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 45,
+                "name": "Errante",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Restringe cuántas copias de una carta se pueden controlar; variante de Única.",
+                "groupedWith": "Única",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 46,
+                "name": "Exilio",
+                "archetype": "Daño y Remoción",
+                "description": "Carta va directo a Destierro al jugarla; similar a Daño Destierro.",
+                "groupedWith": "Daño Destierro",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 47,
+                "name": "Purificar",
+                "archetype": "Cementerio / Recursión",
+                "description": "Permite elegir cartas en cementerios y desterrarlas o barajarlas de nuevo en su Mazo Castillo.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 48,
+                "name": "Restricción de juego",
+                "archetype": "Control y Supresión",
+                "description": "Impide que se jueguen cartas, al ser nombradas o prohibición de uso mientras esté en juego la fuente.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 49,
+                "name": "Traición",
+                "archetype": "Control y Supresión",
+                "description": "Permite controlar temporalmente un Aliado enemigo, similar a Control Aliado.",
+                "groupedWith": "Control Aliado",
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 50,
+                "name": "Reclutar",
+                "archetype": "Recursos y Economía",
+                "description": "Permite traer al juego cartas jugadas sin pagar su coste o pagando costes.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 51,
+                "name": "Barajar",
+                "archetype": "Cementerio / Recursión",
+                "description": "Permite elegir cartas de tu Cementerio o Destierro y barajarlas en tu Mazo Castillo.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 52,
+                "name": "Reagrupar",
+                "archetype": "Recursos / Economía",
+                "description": "Carta que vuelve a su zona despues de usarse. Oros en Zona de Reserva de Oro, Aliados en Línea de Defensa.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 53,
+                "name": "Prevención",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Su efecto permite que la carta se proteja de otro.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            },
+            {
+                "id": 54,
+                "name": "Prevención de Juego",
+                "archetype": "Prevención / Resiliencia",
+                "description": "Carta que se protege de algunas acciones en el juego, por ej. No puede salir del juego bajo ciertas condiciones o solo puede ser afectada por condiciones específicas.",
+                "groupedWith": null,
+                "__typename": "Mechanic"
+            }
+        ]
+    }
+}

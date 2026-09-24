@@ -18,7 +18,14 @@ CREATE TABLE `cards` (
     effect VARCHAR(1000),
     isUnique BOOLEAN,
     imageUrl VARCHAR(250),
-    type VARCHAR(10)
+    type VARCHAR(10),
+    
+    /*
+    deckUsageTotal INT,
+    race VARCHAR(20), /*enviar a otra tabla*/
+    edition VARCHAR(20) /*enviar a una tabla*/
+    */
+    
 );
 
 

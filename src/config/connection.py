@@ -1,11 +1,9 @@
-from dotenv import load_dotenv
 from mysql import connector
 import os
 
 
 class Connection:
-    def __init__(self):
-        load_dotenv()
+    def __init__(self): 
         self.dbName = os.getenv("DBNAME")
         self.user = os.getenv("DBUSER")
         self.host = os.getenv("HOST")
