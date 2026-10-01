@@ -1,8 +1,8 @@
-from src.config.connection import Connection
+from src.config.database import Database
 
 
 def loadDataCards(cards):
-    connection = Connection()
+    connection = Database()
     handleDB = connection.connect()
     cursor = handleDB.cursor()
     query = """
@@ -32,7 +32,7 @@ def loadDataCards(cards):
     handleDB.close()
 
 def deleteDataCards():
-    connection = Connection()
+    connection = Database()
     handleDB = connection.connect()
     cursor = handleDB.cursor()
     queryDelete = ("DELETE FROM cards")

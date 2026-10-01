@@ -2,7 +2,7 @@ from mysql import connector
 import os
 
 
-class Connection:
+class Database:
     def __init__(self): 
         self.dbName = os.getenv("DBNAME")
         self.user = os.getenv("DBUSER")

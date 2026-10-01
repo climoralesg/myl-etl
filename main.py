@@ -5,8 +5,8 @@ load_dotenv()
 
 from src.extract.myl import getCards,getBlock
 from src.load.loadBd import loadDataCards,deleteDataCards
-from src.load.loadSheets import connectSheet,loadSheetCards
-
+from src.load.loadSheets import loadSheetCards
+from src.config.sheet import Sheet
 '''
 para utilizar modo myl, primero se debe ingresar la base de datos en el script bd.myl
 y descomentar las funciones indicadas en main
@@ -26,8 +26,10 @@ def main():
 
     #Funcion determinada para eliminar datos de cartas en MySql
     #deleteDataCards()
-    clientConnected = connectSheet()
-    sheet = clientConnected.open("myl-etl").sheet1
+    sheet = Sheet()
+    
+    clientSheet = sheet.connect()
+    sheet = clientSheet.open("myl-etl").sheet1
 
     while True:
         cards = getCards(page, chunkNumberCards)
@@ -41,7 +43,7 @@ def main():
         page += 1
 
 
-    clientConnected.http_client.session.close()
+    clientSheet.http_client.session.close()
 
 
 if __name__ == "__main__":
